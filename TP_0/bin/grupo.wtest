@@ -1,0 +1,15 @@
+import grupo.*
+describe "Cantantes Favoritos"{
+test "Cantante Favorito/a de Alan" {
+assert.equals("sia", alan.cantantePreferido())
+}
+
+test "Cantante Favorito/a de Santiago"{
+	assert.equals("Indio Solari", santiago.cantantePreferido())
+}
+
+test "Cantante Favorito/a de Victor"{
+	assert.equals("J. Balvin", victor.cantantePreferido())
+}
+
+}
